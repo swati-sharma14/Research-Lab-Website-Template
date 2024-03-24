@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog-1 - HMI</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid p-0" style="background-color: rgb(217, 207, 207);">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker text-primary me-2"></small>
+                    <small><strong><a href="https://www.google.com/maps/dir//HMI+LAB,+A-413,+R+%26+D+Block,+Indraprastha+Institute+of+Information+Technology,+Delhi,+Okhla+Phase+III,+Okhla+Industrial+Estate,+New+Delhi,+Delhi+110020/@28.5439441,77.2688084,17z/data=!4m17!1m7!3m6!1s0x390ce3b74ab63195:0xa1e302a17e7c467a!2sHMI+LAB!8m2!3d28.5439441!4d77.2713833!16s%2Fg%2F11jlffq4_9!4m8!1m0!1m5!1m1!1s0x390ce3b74ab63195:0xa1e302a17e7c467a!2m2!1d77.2713833!2d28.5439441!3e3?entry=ttu">IIIT-Delhi, New Delhi, India</a></strong></small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <i class="far fa-envelope text-primary me-2"></i>
+                    <small><strong><a href="mailto:hmi@iiitd.ac.in">hmi(at)iiitd(dot)ac(dot)in</a></strong></small>
+                </div>
+                
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <i class="fas fa-phone-alt text-primary me-2"></i>
+                    <small><strong><a href="tel:+91-11-26907523">+91-11-26907523</a></strong></small>
+                </div>                
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/hmi.iiitd/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/hmi_iiitd"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/hmi_iiitd/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.linkedin.com/company/human-machine-interaction/about/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">Human-Machine Interaction @ IIIT-Delhi</h2>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="project.html" class="dropdown-item">Projects</a>
+                        <a href="publications.html" class="dropdown-item">Publications</a>
+                    </div>
+                </div>
+                <a href="team.html" class="nav-item nav-link">Our Team</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="FAQ.html" class="dropdown-item">FAQ</a>
+                        <a href="blogs.html" class="dropdown-item">Blogs</a>
+                        <a href="internal_resources.html" class="dropdown-item">Internal Resources</a>
+                        <a href="external_resources.html" class="dropdown-item">External Resources</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="contact.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Let's Connect</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="join_us.html" class="dropdown-item">Join Us</a>
+                        <a href="contact.html" class="dropdown-item">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Blogs</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Blog-1</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
+        <div class="container contact px-lg-0">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8 text-center">
+                  <h1>First Leap for HMI@IIITD</h1>
+                  <p class="lead">June 30, 2020 &bullet; <em>by</em> Shubhangi Butta</p>
+                </div>
+              </div>
+            <div class="row">
+                <div class="container" align="center">
+                  <div class="col-md-9 blog-content">
+                      <br>
+                    <p style="text-align: justify;">The essence of the HMI lab lies not just in the tech-enthusiasm, but also the social intelligence of its members. As the members were welcomed into the aura that this amalgamation creates, the official opening of the doors of the lab called for a glimpse into this novel space created by Dr. Jainendra Shukla in the hope of tracing the wholeness of the society we live in. Let us try to understand the lab and its focus directly from him.</p>
+                    <br>
+      
+                    <p style="text-align: justify;"><b>What is human-machine interaction?</b></p>
+                    <p style="text-align: justify;">Human-Machine Interaction is a highly interdisciplinary area that lies at the intersection of Computer Science, Design, and Social Science. It derives insights from design and social science and applies computer science techniques including artificial intelligence, machine learning, etc. to enable fruitful interaction among humans and machines. Researchers in this domain consists of computer scientists, designers, and social scientists who work on a challenging problem in a wide range of disciplines including, Artificial Intelligence, Affective Computing, Human-Computer Interaction, Machine Learning, Multimedia, Social Robotics, Ubiquitous Computing, Wearable Technologies, etc. HMI is important because it enables cooperation among humans and machines.</p>
+      
+                    <br>
+      
+                    <p style="text-align: justify;"><b>How did you end up researching Human-Machine Interaction?</b></p>
+                    <p style="text-align: justify;">I completed my Ph.D. in close collaboration with a residential care facility for individuals with intellectual disabilities in Barcelona. Owing to the nature of my research, I had to interact with these individuals and their amazing team of caregivers, including psychologists, psychiatrists, and pedagogues on a regular basis. I could understand what machines can do and they could very easily specify the requirements of these kids (this is how they address these users).  I realized that an empowering interaction between humans and machines can drastically improve the quality of life and that is how my new journey into human-machine interaction started.</p>
+      
+                    <br>
+      
+                    <p style="text-align: justify;"><b>What were some of the challenges that you faced during the initial stages of your research and how did you overcome them?</b></p>
+                    <p style="text-align: justify;">At the beginning of my research in HMI, I found myself at the intersection of Computer Science, Design, and Social Science. While I had a background in computer science but I had very little knowledge of the Design, Physiology, and Social Sciences space. To overcome this limitation, I read several research papers from these domains. To understand these papers, I remember contacting authors of the papers and also knocking doors (many a time virtually via e-mails) of one professor to another, both within and outside my university, known and unknown to me. It really helped me a lot in gaining an initial understanding of the fields. Another interesting problem that I faced was that most of the human participants in my study were Spanish speakers, either children or individuals with intellectual disabilities. And not being able to speak their language, I was not able to achieve their full cooperation and confidence during the user experiments and studies. It really inspired me to learn Spanish and with lots of readings, online classes, and watching cartoons (entire Avatar series in Spanish), I managed to achieve a day to day communication fluency.</p>
+      
+                    <br>
+                    
+                    <p style="text-align: justify;"><b>The HMI field is highly interdisciplinary. What advice would you offer to someone who wants to start out in the field?</b></p>
+                    <p style="text-align: justify;">To start, one must realize that HMI is a highly interdisciplinary and huge field. It not only involves the technical challenges but it also needs insights from a wide range of disciplines including, design,  psychology, sociology, and anthropology. I know researchers who focus on the technical side of HMI as well as those focusing on the societal challenges of HMI. My first suggestion would be to identify what part of HMI excites your passion. That passion is going to act as a fuel to move you forward in this exciting field. Read news articles, newsletters (MIT Technology Review, IEEE Spectrum, etc.) research papers, technical reports, anything you can find. Find that thing that excites you!
+      
+                    Second, learn a programming language even if you are from a non-technical background. If you already know one, improve your programming skills by working on as many assignments as you can work on. A scripting language like Python, R, or Matlab will help you in the field immensely. 
+      
+                    My third suggestion would be to get involved. Take courses (offline and online) in your area of interests to enrich your education. Further, engage with various ongoing challenges on Kaggle, evalai, and various related conferences and workshops in your area of interest. You can also reproduce the results from the publications published in good venues. Identify competent researchers in your areas of interest and approach them for collaboration in terms of internships, research assistant positions, or any available manner. Last but not least <b>“learn how to learn.” </b></p>
+      
+                    <br>
+      
+                    <p style="text-align: justify;"><b>What are you working on now?</b></p>
+                    <p style="text-align: justify;">At present we are working on some very exciting projects. Together with two doctoral scholars, we are working on developing robot-assisted interventions for the diagnosis and therapy of autism spectrum disorder. In another exciting project, we are working on the analysis of attention among children with attention deficit hyperactivity disorder. Complete list of projects is available on the projects tab of the site.</p>
+      
+                    <br>
+      
+                      <p style="text-align: justify;"><b>What is an exciting avenue of research in your area that you think will have a significant impact in the coming years?</b></p>
+                    <p style="text-align: justify;">With advancements in technology, machines are becoming more interactive and more intelligent. One exciting avenue in the HMI field is the ability of a machine to recognize the emotional state of humans—at the level a human would do, and to perform an adaptation of their interaction in response to those emotions. It will not only provide intriguing possibilities in applications related to assistive technologies, learning tools but also in improving quality of life in health and social care.</p>
+      
+                  </div> 
+                </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">About Us</h4>
+                    <p class="mb-2">Our research is supported by the <a href="https://cdnm.iiitd.ac.in/">Centre for Design and New Media (A TCS Foundation Initiative supported by Tata Consultancy Services)</a>, 
+                    <a href="https://cai.iiitd.ac.in/"> Infosys Center for Artificial Intelligence</a>, <a href="https://ihub-anubhuti-iiitd.org/"> IHUB Anubhuti-IIITD Foundation (IHUB) (IHUB Anubhuti/Project Grant/03)</a>, 
+                    Intramural Start-up Grant from the <a href="https://www.iiitd.ac.in/">Indraprastha Institute of Information Technology-Delhi (IIIT-Delhi)</a> and <a href="http://serb.gov.in/srgg.php">Science and Engineering Research Board,
+                    Government of India</a> (Ref: SRG/2020/002454).</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker me-3"></i><a href="https://www.google.com/maps/dir//HMI+LAB,+A-413,+R+%26+D+Block,+Indraprastha+Institute+of+Information+Technology,+Delhi,+Okhla+Phase+III,+Okhla+Industrial+Estate,+New+Delhi,+Delhi+110020/@28.5439441,77.2688084,17z/data=!4m17!1m7!3m6!1s0x390ce3b74ab63195:0xa1e302a17e7c467a!2sHMI+LAB!8m2!3d28.5439441!4d77.2713833!16s%2Fg%2F11jlffq4_9!4m8!1m0!1m5!1m1!1s0x390ce3b74ab63195:0xa1e302a17e7c467a!2m2!1d77.2713833!2d28.5439441!3e3?entry=ttu">B-418, RnD Block, IIIT, Delhi, Okhla Phase - 3 - 110020, India</a></p>
+                    <p class="mb-2"><i class="fa fa-phone me-3"></i><a href="tel://+91-11-26907523">+91-11-26907523</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:hmi@iiitd.ac.in">hmi(at)iiitd(dot)ac(dot)in</a></p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="index.html">About</a>
+                    <a class="btn btn-link" href="project.html">Projects</a>
+                    <a class="btn btn-link" href="publications.html">Publications</a>
+                    <a class="btn btn-link" href="team.html">Team</a>
+                    <a class="btn btn-link" href="internal_resources.html">Resources</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <br>
+                    <a class="mb-0 site-logo"><img class="new_logo_des" src="img/hmi_logo.jpg" alt=""
+                        id="header-logo" class="img-fluid" height="165px" width="175px"
+                        style="border: 4px solid #000000;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">HMI_Lab</a>, All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        By <a class="border-bottom" href="https://htmlcodex.com">Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
